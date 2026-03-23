@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 
-const addProduct = () => {
+const AddProduct = () => {
   const[productname, setProductname]=useState("")
   const[productdescription,setProductdescription]=useState("")
   const[productcost, setProductcost]=useState("")
